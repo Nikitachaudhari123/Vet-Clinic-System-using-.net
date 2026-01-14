@@ -1,0 +1,32 @@
+﻿@model PetProfile
+
+<h1>Create Pet Profile</h1>
+
+<form asp-action="Create" enctype="multipart/form-data" method="post">
+
+    <div class="form-group">
+        <label asp-for="PetId"></label>
+        <select asp-for="PetId" asp-items="ViewBag.PetId" class="form-control"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="VetNotes">Type Notes</label>
+        <textarea asp-for="VetNotes" class="form-control"></textarea>
+        <span asp-validation-for="VetNotes" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Upload .txt file</label>
+        <input type="file" name="NotesFile" class="form-control" accept=".txt" />
+    </div>
+
+    <button class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

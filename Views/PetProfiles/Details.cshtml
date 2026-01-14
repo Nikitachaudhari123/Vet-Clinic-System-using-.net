@@ -1,0 +1,11 @@
+﻿@model PetProfile
+
+
+<h1>Profile Details</h1>
+
+<p><strong>Pet:</strong> @Model.Pet.Name</p>
+<p><strong>Notes:</strong></p>
+<pre>@Model.VetNotes</pre>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back</a>

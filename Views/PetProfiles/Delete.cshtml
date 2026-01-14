@@ -1,0 +1,16 @@
+﻿@model PetProfile
+
+
+<h1>Delete Pet Profile</h1>
+
+<p>Are you sure?</p>
+
+<p><strong>Pet:</strong> @Model.Pet.Name</p>
+<p><strong>Notes:</strong></p>
+<pre>@Model.VetNotes</pre>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
