@@ -1,4 +1,4 @@
- 🐾 Veterinary Clinic System — MVC + REST API
+# 🐾 Veterinary Clinic System — MVC + REST API
 
 Full-stack Veterinary Clinic System built with **ASP.NET Core**, **Entity Framework Core**, and **RESTful Web APIs**. The project demonstrates backend architecture, relational data modeling, CRUD operations, API design, and testing with Swagger/Postman.
 
@@ -6,7 +6,7 @@ This project was developed as part of a Computing Science program to showcase pr
 
 ---
 
- 📌 Features
+# 📌 Features
 
 ## Web Application (ASP.NET Core MVC)
 
@@ -36,7 +36,7 @@ This project was developed as part of a Computing Science program to showcase pr
 
 ---
 
- 🧱 Data Model
+# 🧱 Data Model
 
 ## Entities
 
@@ -68,7 +68,7 @@ This project was developed as part of a Computing Science program to showcase pr
 
 ---
 
- 🔌 API Endpoints (Sample)
+# 🔌 API Endpoints (Sample)
 
 ## Vet Doctors
 
@@ -116,7 +116,7 @@ DELETE  /api/petprofiles/{petId}
 
 ---
 
-▶️ How To Run
+# ▶️ How To Run
 
 ## MVC App
 
@@ -147,7 +147,7 @@ https://localhost:<port>/swagger
 
 ---
 
- 🧪 Testing
+# 🧪 Testing
 
 * Tested CRUD operations through:
 
@@ -158,7 +158,7 @@ https://localhost:<port>/swagger
 
 ---
 
- 🎯 Skills Demonstrated
+# 🎯 Skills Demonstrated
 
 * Backend architecture design
 * REST API development
@@ -169,4 +169,5 @@ https://localhost:<port>/swagger
 * MVC pattern
 * Structured routing
 * Technical documentation
+
 
